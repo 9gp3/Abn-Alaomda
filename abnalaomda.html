@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ابن العمدة</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        background: linear-gradient(135deg, #e0e0e0, #f5f5f5);
+      }
+
+      .container {
+        text-align: center;
+        background: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      .profile-image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 20px;
+      }
+
+      h1 {
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 20px;
+      }
+
+      .social-links a {
+        text-decoration: none;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .social-links a.facebook {
+        background-color: #4267b2;
+      }
+      .social-links a.facebook:hover {
+        background-color: #365899;
+      }
+
+      .social-links a.instagram {
+        background: radial-gradient(
+          circle at 30% 107%,
+          #fdf497 0%,
+          #fdf497 5%,
+          #fd5949 45%,
+          #d6249f 60%,
+          #285aeb 90%
+        );
+      }
+      .social-links a.instagram:hover {
+        background: radial-gradient(
+          circle at 30% 107%,
+          #fdf497 0%,
+          #fd5949 45%,
+          #d6249f 60%,
+          #285aeb 90%
+        );
+        filter: brightness(0.9);
+      }
+
+      .social-links a.tiktok {
+        background-color: #010101;
+      }
+      .social-links a.tiktok:hover {
+        background-color: #333333;
+      }
+
+      .social-links a.whatsapp {
+        background-color: #25d366;
+      }
+      .social-links a.whatsapp:hover {
+        background-color: #1da851;
+      }
+
+      .social-links a.company-site {
+        background-color: #ff5733;
+      }
+      .social-links a.company-site:hover {
+        background-color: #e14e2b;
+      }
+
+      footer {
+        margin-top: 30px;
+        font-size: 12px;
+        color: #666;
+      }
+
+      @media (max-width: 600px) {
+        .social-links {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="abn alaomda.jpg" alt="Profile Picture" class="profile-image" />
+      <h1>شركة ابن العمدة للجلود الطبيعية</h1>
+      <div class="social-links">
+        <a
+          href="https://www.facebook.com/profile.php?id=100086077248881"
+          target="_blank"
+          class="facebook"
+        >
+          <img
+            src="icon/facebook-logo-fill.svg"
+            alt="Facebook"
+            style="width: 24px; height: 24px"
+          />
+          Facebook
+        </a>
+        <a
+          href="https://www.instagram.com/abn__alaomda/"
+          target="_blank"
+          class="instagram"
+        >
+          <img
+            src="icon/instagram-logo-fill.svg"
+            alt="Instagram"
+            style="width: 24px; height: 24px"
+          />
+          Instagram
+        </a>
+        <a
+          href="https://www.tiktok.com/@abn__alaomda"
+          target="_blank"
+          class="tiktok"
+        >
+          <img
+            src="icon/tiktok-logo-fill.svg"
+            alt="TikTok"
+            style="width: 24px; height: 24px"
+          />
+          TikTok
+        </a>
+        <a href="https://wa.me/+9647708393161" target="_blank" class="whatsapp">
+          <img
+            src="icon/whatsapp-logo-fill.svg"
+            alt="WhatsApp"
+            style="width: 24px; height: 24px"
+          />
+          WhatsApp
+        </a>
+        <a
+          href="https://maps.app.goo.gl/w4s6HiR3i4d3JiJc8"
+          target="_blank"
+          class="company-site"
+        >
+          <img
+            src="icon/map-pin-fill.svg"
+            alt="Company Site"
+            style="width: 24px; height: 24px"
+          />
+          Company Site
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
