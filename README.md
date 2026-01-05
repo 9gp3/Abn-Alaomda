@@ -22,4 +22,4 @@ A static website that provides direct access to the company's social media links
 
 🌍 Live Preview
 🔗 [https://9gp3.github.io/Abn-Alaomda/]
----
+----
